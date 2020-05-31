@@ -1,0 +1,145 @@
+#header {
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .logo {
+    height: 100%;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/images/logo.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: var(--purple);
+}
+
+#header .cab {
+    height: 100%;
+    width: 100%;
+    background-color: var(--purple);
+}
+
+#header .cab .menu {
+    position: fixed;
+    width: 300px;
+    right: -300px;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #555;
+    transition: translate .3s ease-out;
+    z-index: 4;
+    top: 0;
+}
+
+#header .cab .menu .menu-item {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-open {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: none;
+    background-image: url("/assets/images/open-menu.svg");
+    background-position: center;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+    #header .cab {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    #header .cab .menu {
+        position: static;
+        height: 100%;
+        width: 400px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0;
+        background: none;
+    }
+    #header .cab .menu-item {
+        color: var(--white);
+    }
+
+    #menu-open {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .logo {
+    height: 100%;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/images/logo.png");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-color: var(--purple);
+}
+
+#header .cab {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    background-color: var(--purple);
+}
+
+#header .cab .menu {
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header .cab .menu .menu-item {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.2em;
+} */
