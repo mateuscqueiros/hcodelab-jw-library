@@ -1,0 +1,126 @@
+footer {
+    width: 100%;
+    background-color: #302f2f;
+    position: relative;
+    flex-direction: column;
+}
+
+footer .footer-content {
+    padding: 45px;
+    flex-direction: column;
+}}
+
+footer .footer-wrapper {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer .footer-wrapper .columns {
+    flex-direction:row;
+    height: 50vh;
+}
+
+footer .footer-wrapper .columns ul {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+}
+
+footer .footer-title {
+    color: var(--gray);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+footer .footer-wrapper .columns .contact .footer-text-wrapper {
+    flex-direction: column;
+}
+
+
+footer .columns .footer-text {
+    margin-bottom: 10px;
+    color: var(--gray);
+    list-style: none;
+}
+
+footer .columns .links,
+footer .columns .social {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+footer .columns .contact {
+    flex-direction: column;
+    padding-right: 0;
+}
+
+footer .columns .links a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .social-item {
+    align-items: center;
+}
+
+footer .social-item > i {
+    padding-right: 5px;
+}
+
+footer .copyright {
+    width: 100%;
+    background-color: #272727;
+    flex-direction: column;
+    padding: 10px 50px;
+    justify-content: center;
+}
+
+footer .copyright .copyright-text,
+footer .copyright .copyright-law {
+    color: #FFF;
+    font-size: 1em;
+}
+
+footer .footer-end {
+    flex-direction: column;
+}
+
+footer .footer-end .footer-end-border {
+    border-bottom: 1px solid white;
+    width: 120px;
+    margin-bottom: 50px;
+}
+
+footer .footer-end .footer-end-text {
+    font-weight: bold;
+    color: var(--white);
+}
+
+@media (min-width: 992px) {
+    footer .footer-wrapper .columns {
+        flex-direction: row;
+    }
+    footer .columns .links,
+    footer .columns .social {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    footer .columns .links a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    footer .copyright {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer .copyright .copyright-text,
+    footer .copyright .copyright-law {
+        font-size: .8em;
+    }
+    footer .copyright .copyright-text {
+        margin-right: 3px;
+    }
+}
