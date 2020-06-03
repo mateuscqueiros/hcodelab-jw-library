@@ -10,7 +10,7 @@
     width: 100px;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/images/logo.png");
+    background-image: url("/public/assets/images/logo.png");
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
