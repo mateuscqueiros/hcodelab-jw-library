@@ -1,0 +1,45 @@
+
+#home.page .rebrand_purple.hero {
+    background-color: var(--purple);
+}
+
+#home.page .rebrand_purple.hero .inform-label-wrapper::after {
+    background-color: var(--gray);
+}
+
+#home.page .hero.rebrand_purple .inform-hero {
+    font-size: 40px;
+    margin: 0;
+    color: var(--white);
+}
+
+#home.page .hero.rebrand_purple .inform-text {
+    font-size: 20px;
+    color: var(--grey);
+}
+
+@media (min-width: 992px) {
+    #home.page .prime-hero.hero.rebrand_purple .inform-label {
+        font-size: 25px;
+    }
+    
+    #home.page .prime-hero.hero.rebrand_purple .inform-hero {
+        font-size: 50px;
+    }
+    
+    #home.page .prime-hero.hero.rebrand_purple .inform-text {
+        font-size: 20px;
+    }
+
+    #home.page .hero.rebrand_purple .inform-label {
+        font-size: 20px;
+    }
+    
+    #home.page .hero.rebrand_purple .inform-hero {
+        font-size: 40px;
+    }
+    
+    #home.page .hero.rebrand_purple .inform-text {
+        font-size: 20px;
+    }
+}

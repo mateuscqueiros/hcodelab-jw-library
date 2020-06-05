@@ -1,0 +1,28 @@
+
+@import "images-home.css";
+@import "inform.css";
+@import "rebrand_purple.css";
+@import "rebrand_white.css";
+
+#home.page {
+    flex-direction: column;
+}
+
+#home.page .content {
+    width: 100%;
+    flex-direction: column;
+}
+
+#home.page .hero {
+    width: 100%;
+    flex-direction: column;
+    min-height: 90vh;
+    padding: 30px 50px 50px 50px;
+}
+
+/* Primeiro hero */
+
+#home.page .prime-hero {
+    flex-direction: row;
+    justify-content: space-around;
+}

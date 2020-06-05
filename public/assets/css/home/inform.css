@@ -1,0 +1,98 @@
+/* inform */
+
+#home.page .hero .inform {
+    flex-direction: column;
+    height: 100%;
+}
+
+#home.page .hero .inform-label {
+    position: relative;
+    color: var(--white);
+    justify-content: center;
+}
+
+#home.page .hero .inform-label-wrapper {
+    position: relative;
+    justify-content: center;
+    margin: 0;
+    height: 40px;
+    align-items: center;
+    font-size: 25px;
+}
+
+#home.page .hero .inform-label-wrapper::after {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: var(--gray);
+    content: "";
+}
+
+
+/* sub-inform */
+
+#home.page .hero .inform .sub-inform {
+    position: relative;
+    flex-direction: column;
+    height: 33.3333%;
+    margin-top: 50px;
+}
+
+#home.page .hero .inform .sub-inform.bro {
+    flex-direction: column;
+}
+
+#home.page .hero .inform .sub-inform .sub-inform-text {
+    flex-direction: column;
+    height: 40%;
+    margin-bottom: 10px;
+}
+
+/* Inform button */
+
+#home.page .inform .inform-button {
+    font-size: 20px;
+    width: 200px;
+    outline: none;
+    border: none;
+    background: none;
+    background-color: var(--grey);
+    color: var(--purple-text);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (min-width: 720px) {
+
+    /* Inform */
+    
+    #home.page .prime-hero .inform {
+        width: 50%;
+    }
+
+    /* sub-informs */
+
+    #home.page .hero .inform .sub-inform {
+        flex-direction: row;
+        height: 500px;
+        margin-top: 0;
+    }
+
+    #home.page .hero .inform .sub-inform.bro {
+        flex-direction: row-reverse;
+    }
+    
+    #home.page .hero .inform .sub-inform .sub-inform-text {
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,115 @@
+/* Imagens do primeiro hero */
+
+#home.page .prime-hero .image-hero {
+    display: none;
+}
+
+/* Imagens do segundo hero */
+
+#home.page .second-hero .inform-image-hero {
+    width: 83.333333%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    margin-right: 8.333333333333332%;
+    margin-left: 8.333333333333332%;
+    flex-direction: column;
+}
+
+#home.page .second-hero .inform-image-wrapper {
+    padding-top: 62.5%;
+    max-width: 100%;
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+
+#home.page .second-hero .inform-image {
+    overflow: visible;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#second-hero-img {
+    width: 100%;
+}
+
+/* Imagens dos sub-informs */
+
+#home.page .hero .inform .sub-inform .sub-inform-image {
+    position: relative;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+#home.page .hero .inform .sub-inform .sub-inform-image.bro > img {
+    width: 100%;
+}
+
+/* Mockups e outras imagens */
+
+#home.page .mockup-image {
+    border-radius: 10px;
+    box-shadow: -2px 3px 14px 0px #000;
+}
+
+@media (max-width: 576px) {
+
+    /* Images do segundo hero */
+
+    #home.page .second-hero .inform-image-hero {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 720px) {
+
+    /* Imagens do primeiro hero */
+
+    #home.page .prime-hero .image-hero {
+        flex-direction: column;
+        display: block;
+        width: 50%;
+    }
+    
+    #home.page .prime-hero .image-hero > div {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    #home.page .prime-hero .image-hero > div > img {
+        width: 100%;
+    }
+
+    /* Imagens do segundo hero */
+
+    #home.page .second-hero .inform-image-hero {
+        display: none;
+    }
+
+    /* Imagens do sub-inform */
+    
+    #home.page .hero .inform .sub-inform .sub-inform-image {
+        width: 50%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    #home.page .hero .inform .sub-inform .sub-inform-image .mockup-image {
+        position: relative;
+        width: 50%;
+    }
+
+    #home.page .hero .inform .sub-inform .sub-inform-image.bro {
+        padding: 50px 0;
+    }
+
+}

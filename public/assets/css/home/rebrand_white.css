@@ -1,0 +1,36 @@
+#home.page .hero.rebrand_white {
+    background-color: var(--gray);
+    width: 100%;
+    flex-direction: column;
+    min-height: 90vh;
+    padding: 50px;
+    position: relative;
+    padding-top: 0;
+}
+
+#home.page .hero.rebrand_white .inform-label {
+    font-size: 20px;
+    color: var(--purple);
+}
+
+#home.page .hero.rebrand_white .inform-hero {
+    font-size: 40px;
+    margin: 0;
+    color: var(--purple);
+    padding-top: 60px;
+}
+
+#home.page .hero.rebrand_white .inform-text {
+    font-size: 20px;
+    color: var(--black);
+}
+
+#home.page .rebrand_white.hero .inform-label-wrapper::after {
+    background-color: var(--purple);
+}
+
+@media (max-width: 720px) {
+    #home.page .hero.rebrand_white .inform-hero {
+        padding-top: 0;
+    }
+}
