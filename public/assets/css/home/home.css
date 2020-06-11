@@ -4,6 +4,10 @@
 @import "rebrand_purple.css";
 @import "rebrand_white.css";
 
+.page {
+    position: relative;
+}
+
 #home.page {
     flex-direction: column;
 }
@@ -16,7 +20,6 @@
 #home.page .hero {
     width: 100%;
     flex-direction: column;
-    min-height: 90vh;
     padding: 30px 50px 50px 50px;
 }
 
@@ -25,4 +28,5 @@
 #home.page .prime-hero {
     flex-direction: row;
     justify-content: space-around;
+    height: 100vh;
 }

@@ -105,11 +105,35 @@
 
     #home.page .hero .inform .sub-inform .sub-inform-image .mockup-image {
         position: relative;
-        width: 50%;
+        width: 90%;
     }
 
     #home.page .hero .inform .sub-inform .sub-inform-image.bro {
         padding: 50px 0;
     }
 
+}
+
+@media (min-width: 992px) {
+    #home.page .hero .inform .sub-inform .sub-inform-image .mockup-image {
+        position: relative;
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #home.page .hero .inform .sub-inform .sub-inform-image .mockup-image {
+        position: relative;
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    #home.page .mockup-image {
+        width: 100%;
+    }
+
+    #home.page .hero .inform .sub-inform .sub-inform-image.mockup {
+        padding: 70px 10px;
+    }
 }

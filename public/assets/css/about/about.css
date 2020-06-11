@@ -1,0 +1,13 @@
+#about.page {
+    flex-direction: column;
+    padding: 20px;
+}
+
+#about.page .about-title {
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+#about.page .about-title h1 {
+    color: var(--purple);
+}

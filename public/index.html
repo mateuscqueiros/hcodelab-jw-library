@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicativo</title>
-    <link rel="stylesheet" href="assets/css/index.css">
+    <title>JW Library</title>
+    <link rel="shortcut icon" href="/public/assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/index-main.css">
 </head>
 <body>
     <header id="header">
-        <div class="logo"></div>
+        <a id="link-logo" href="/public/index.html">
+            <div class="logo"></div>
+        </a>
         <button id="menu-open"></button>
         <div class="cab">
             <nav class="menu">
                 <div class="menu-item">Download</div>
                 <div class="menu-item">Sobre</div>
-                <div class="menu-item">Site Oficial</div>
+                <a href="https://www.jw.org/pt"><div class="menu-item">Site Oficial</div></a>
             </nav>
         </div>
     </header>
@@ -25,7 +28,9 @@
                     <h3 class="inform-label">Bem vindo ao</h3>
                     <h2 class="inform-hero">JW Library</h2>
                     <p class="inform-text">O aplicativo oficial das Testemunhas de Jeová. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
-                    <button class="inform-button">Me mostre!</button>
+                    <a href="/public/help-library.html">
+                        <button class="inform-button">Download</button>
+                    </a>
                 </div>
                 <div class="image-hero">
                     <div>
@@ -43,19 +48,21 @@
                         </div>
                     </div>
                     <h2 class="inform-hero">O que você pode fazer com o JW Library?</h2>
-                    <p class="inform-text">Continue por aqui para ver do que esse maravilhoso aplicativo é capaz. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
+                    <p class="inform-text">Continue por aqui para descobrir do que esse maravilhoso aplicativo é capaz. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
                 </div>
             </div>
             <div class="third-hero hero rebrand_purple">
                 <h3 class="inform-label">
-                    <div class="inform-label-wrapper">Para os amantes de livros</div>
+                    <div class="inform-label-wrapper">Para quem lê</div>
                 </h3>
                 <div class="inform">
                     <div class="sub-inform">
                         <div class="sub-inform-text">
                             <h2 class="inform-hero">Leia</h2>
                             <p class="inform-text">Leia conteúdos relevantes. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
-                            <button class="inform-button">Me mostre!</button>
+                            <a href="/public/help-library.html">
+                                <button class="inform-button">Me mostre!</button>
+                            </a>
                         </div>
                         <div class="sub-inform-image mockup">
                             <img id="image-1" class="mockup-image" src="assets/images/pubs-ipad.png">
@@ -65,7 +72,9 @@
                         <div class="sub-inform-text">
                             <h2 class="inform-hero">Destaque</h2>
                             <p class="inform-text">Leia conteúdos relevantes. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
-                            <button class="inform-button">Me mostre!</button>
+                            <a href="/public/help-highlight.html">
+                                <button class="inform-button">Me mostre!</button>
+                            </a>
                         </div>
                         <div class="sub-inform-image bro">
                             <img src="assets/images/studying-bro.svg" alt="">
@@ -75,7 +84,9 @@
                         <div class="sub-inform-text">
                             <h2 class="inform-hero">Anote</h2>
                             <p class="inform-text">Leia conteúdos relevantes. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
-                            <button class="inform-button">Me mostre!</button>
+                            <a href="/public/help-notes.html">
+                                <button class="inform-button">Me mostre!</button>
+                            </a>
                         </div>
                         <div class="sub-inform-image mockup">
                             <img id="image-1" class="mockup-image" src="assets/images/pubs-ipad.png">
@@ -86,14 +97,16 @@
 
             <div class="fourth-hero hero rebrand_white">
                 <h3 class="inform-label">
-                    <div class="inform-label-wrapper">Para quem prefere ouvir</div>
+                    <div class="inform-label-wrapper">Para quem ouve</div>
                 </h3>
                 <div class="inform">
                     <div class="sub-inform">
                         <div class="sub-inform-text">
                             <h2 class="inform-hero">Assista</h2>
                             <p class="inform-text">Assista filmes incríveis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
-                            <button class="inform-button">Me mostre!</button>
+                            <a href="/public/help-media.html">
+                                <button class="inform-button">Me mostre!</button>
+                            </a>
                         </div>
                         <div class="sub-inform-image mockup">
                             <img id="image-1" class="mockup-image" src="assets/images/pubs-ipad.png">
@@ -103,7 +116,9 @@
                         <div class="sub-inform-text">
                             <h2 class="inform-hero">Baixe</h2>
                             <p class="inform-text">Assista filmes incríveis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
-                            <button class="inform-button">Me mostre!</button>
+                            <a href="/public/help-media.html">
+                                <button class="inform-button">Me mostre!</button>
+                            </a>
                         </div>
                         <div class="sub-inform-image bro">
                             <img src="assets/images/digital-nomad-bro.svg" alt="Pessoa nas montanhas usando ">
@@ -113,13 +128,48 @@
                         <div class="sub-inform-text">
                             <h2 class="inform-hero">Ouça</h2>
                             <p class="inform-text">Assista filmes incríveis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis exercitationem atque officia repudiandae quod doloribus, neque tempore corporis ad vel provident voluptate nemo impedit illum eveniet quo illo sapiente!</p>
-                            <button class="inform-button">Me mostre!</button>
+                            <a href="/public/help-media.html">
+                                <button class="inform-button">Me mostre!</button>
+                            </a>
                         </div>
                         <div class="sub-inform-image mockup">
                             <img id="image-1" class="mockup-image" src="assets/images/pubs-ipad.png">
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="sixth-hero hero rebrand_purple">
+                <div class="inform">
+                    <div class="sub-inform">
+                        <h3 class="inform-label">Mais</h3>
+                        <h2 class="inform-hero">Recursos</h2>
+                        <p class="inform-text">Que vão te deixar de queixo caído!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fifth-hero hero rebrand_white">
+                <div class="final-inform">
+                    <div class="final-inform-text">
+                        <h3 class="inform-label">Como baixar o</h3>
+                        <h2 class="inform-hero">JW Library</h2>
+                        <p class="inform-text">O JW Library está disponível nas principais lojas de aplicativos.</p>
+                    </div>
+                    <div class="stores-wrapper">
+                        <a target="_blank" class="mini-logo" href="https://apps.apple.com/us/app/jw-library/id672417831?ls=1">
+                            <img src="/public/assets/images/apple_store_logo.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=org.jw.jwlibrary.mobile" class="mini-logo">
+                            <img src="/public/assets/images/play_store_logo.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.amazon.com/gp/product/B00FN811SY/ref=mas_dl/144-3818206-6390050" class="mini-logo">
+                            <img src="/public/assets/images/amazon_store_logo.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.microsoft.com/pt-br/p/jw-library/9wzdncrfj3b4?rtc=1" class="mini-logo">
+                            <img src="/public/assets/images/microsoft_store_logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
             </div>
             
         </section>
@@ -130,21 +180,21 @@
                 <div class="columns">
                     <ul class="contact">
                         <p class="footer-title">Ajuda</p>
-                            <li class="footer-text">Destacar</li>
-                            <li class="footer-text">Anotar</li>
-                            <li class="footer-text">Backups</li>
+                            <a href=""><li class="footer-text">Publicações</li></a>
+                            <a href=""><li class="footer-text">Mídias</li></a>
+                            <a href=""><li class="footer-text">Notas</li></a>
                     </ul>
                     <ul class="links">
                         <p class="footer-title">Links</p>
-                        <li class="link footer-text">Download</li>
-                        <li class="link footer-text">Sobre</li>
-                        <li class="link footer-text">Site Oficial</li>
+                        <a href="https://www.jw.org/pt"><li class="link footer-text">Site Oficial</li></a>
+                        <a href=""><li class="link footer-text">Ajuda</li></a>
+                        <a href=""><li class="link footer-text">Sobre</li></a>
                     </ul>
                     <ul class="social">
                         <p class="footer-title">Redes sociais</p>
-                        <li class="social-item footer-text"><i class="fab fa-facebook-square fa-lg"></i>Facebook</li>
-                        <li class="social-item footer-text"><i class="fab fa-twitter fa-lg"></i>Twitter</li>
-                        <li class="social-item footer-text"><i class="fab fa-instagram fa-lg"></i>Instagram</li>
+                        <li class="social-item footer-text"></i>Facebook</li>
+                        <li class="social-item footer-text">Twitter</li>
+                        <liInstagram class="social-item footer-text">Instagram</li>
                     </ul>
                 </div>
             </div>
@@ -154,5 +204,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="/public/js/index.js"></script>
 </body>
 </html>

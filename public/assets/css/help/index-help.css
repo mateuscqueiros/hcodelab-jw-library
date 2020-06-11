@@ -1,0 +1,40 @@
+@import "/public/assets/css/reset.css";
+@import "/public/assets/css/variables.css";
+@import "/public/assets/css/help/highlight.css";
+@import "/public/assets/css/header.css";
+@import "/public/assets/css/footer.css";
+
+#help.page {
+    max-width: 850px;
+    padding: 50px;
+    padding-top: 95px;
+    flex-direction: column;
+}
+
+.help-title {
+    flex-direction: column;
+}
+
+.help-title h1 {
+    color: var(--purple);
+    margin-bottom: 10px;
+}
+
+.help-list {
+    flex-direction: column;
+}
+
+.help-list ul {
+    flex-direction: column;
+    list-style: none;
+}
+
+.help-list ul li {
+    margin-bottom: 20px;
+}
+
+.help-list ul li a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -2,7 +2,6 @@
     background-color: var(--gray);
     width: 100%;
     flex-direction: column;
-    min-height: 90vh;
     padding: 50px;
     position: relative;
     padding-top: 0;
