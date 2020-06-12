@@ -1,6 +1,6 @@
 @import "/public/assets/css/reset.css";
 @import "/public/assets/css/variables.css";
-@import "/public/assets/css/help/highlight.css";
+@import "/public/assets/css/help/help.css";
 @import "/public/assets/css/header.css";
 @import "/public/assets/css/footer.css";
 
@@ -9,6 +9,12 @@
     padding: 50px;
     padding-top: 95px;
     flex-direction: column;
+}
+
+#help.page hr {
+    width: 100%;
+    height: 2px;
+    background-color: var(--purple-title);
 }
 
 .help-title {

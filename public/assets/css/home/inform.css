@@ -73,6 +73,12 @@
     flex-direction: column;
 }
 
+#home.page .hero .inform .sub-inform .sub-inform-header {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 #home.page .hero .inform .sub-inform .sub-inform-text {
     flex-direction: column;
     height: 40%;
@@ -99,11 +105,48 @@
     padding: 15px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color .2s ease-in-out;
 }
 
-#home.page .inform .inform-button:hover {
-    background-color: var(--gray);
+.sub-inform .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.sub-inform .grid-container .grid-item {
+    flex-direction: row;
+}
+
+.sub-inform .grid-container .grid-item .grid-item-wrapper {
+    flex-direction: column;
+}
+
+.sub-inform .grid-container .grid-item .grid-item-logo {
+    align-items: center;
+    height: 66px;
+    width: 110px;
+    margin-right: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.sub-inform .grid-container .grid-item .grid-item-title {
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sub-inform .grid-container .grid-item .grid-item-text {
+    color: rgb(189, 185, 185);
+}
+
+@media (max-width:590px) {
+    .sub-inform .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
 }
 
 @media (min-width: 720px) {
@@ -139,7 +182,27 @@
     #home.page .hero .final-inform .stores-wrapper {
         flex: 1;
     }
-    #home.page .hero .final-inform .stores-wrapper .mini-logo > img
-    #home.page .hero .final-inform .stores-wrapper .mini-logo > img
 
+    .sub-inform .grid-container {
+    }
+
+    #home.page .hero .inform .sub-inform .sub-inform-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home.page .hero .inform .sub-inform#final-inform {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #home.page .hero .inform .sub-inform .sub-inform-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -18,7 +18,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("/public/assets/images/logo.png");
+    background-image: url("/assets/images/logo.png");
     background-position: center;
     background-size: 60%;
     background-repeat: no-repeat;
@@ -49,6 +49,28 @@
     right: 0;
 }
 
+#close-menu {
+    display: none;
+}
+
+.open-menu #close-menu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    background: none;
+    background-image: url("/assets/images/icons/close-menu.png");
+    background-position: center;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 6;
+}
+
 #header .cab .menu .menu-item {
     height: 50px;
     font-weight: bold;
@@ -68,7 +90,7 @@
     outline: none;
     border: none;
     background: none;
-    background-image: url("/public/assets/images/open-menu.svg");
+    background-image: url("/assets/images/icons/open-menu.png");
     background-position: center;
     background-size: 35%;
     background-repeat: no-repeat;

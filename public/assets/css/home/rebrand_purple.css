@@ -17,7 +17,6 @@
     font-size: 20px;
     color: var(--grey);
 }
-
 @media (min-width: 992px) {
     #home.page .prime-hero.hero.rebrand_purple .inform-label {
         font-size: 25px;

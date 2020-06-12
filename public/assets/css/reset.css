@@ -12,6 +12,7 @@ body {
     margin: 0;
     flex-direction: column;
     font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
     font-style: normal;
     font-weight: 400;
 }

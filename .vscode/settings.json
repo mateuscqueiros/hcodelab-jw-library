@@ -1,4 +1,10 @@
 {
-    "liveServer.settings.port": 5501,
-    "liveshare.allowGuestTaskControl": true
+    "liveServer.settings.multiRootWorkspaceName": "jwlibrary",
+    "liveServer.settings.root": "public/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito--remote--debugging-port=992",
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**"
+    ]
 }

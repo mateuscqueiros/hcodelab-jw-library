@@ -4,45 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JW Library</title>
-    <link rel="shortcut icon" href="/public/assets/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/public/assets/css/download/index-download.css">
+    <link rel="shortcut icon" href="/assets/images/icons/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/download/index-download.css">
 </head>
 <body>
     <header id="header">
-        <a id="link-logo" href="/public/index.html">
+        <a id="link-logo" href="/index.html">
             <div class="logo"></div>
         </a>
         <button id="menu-open"></button>
+        <button id="close-menu"></button>
         <div class="cab">
             <nav class="menu">
-                <div class="menu-item">Download</div>
-                <div class="menu-item">Sobre</div>
+                <a href="/download.html"><div class="menu-item">Download</div></a>
+                <a href="/help.html"><div class="menu-item">Ajuda</div></a>
                 <a href="https://www.jw.org/pt"><div class="menu-item">Site Oficial</div></a>
             </nav>
         </div>
     </header>
 
     <main id="download" class="page">
-        <div class="final-inform">
-            <div class="final-inform-text">
-                <h3 class="inform-label">Como baixar o</h3>
-                <h2 class="inform-hero">JW Library</h2>
-                <p class="inform-text">O JW Library está disponível nas principais lojas de aplicativos.</p>
+
+        <div class="help-guide">
+            <div class="index-help">
+                <a href="/download.html"><span>Download</span></a>
+            </div>
+        </div>
+
+        <div class="inform">
+            <div class="download-inform-wrapper">
+                <h2 class="inform-hero">Download</h2>
+                <p class="inform-text">O JW Library está disponível nas principais lojas de aplicativos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui reiciendis rerum ipsum cum, beatae sunt incidunt, fuga quam quae, facilis iste sequi quaerat cupiditate tenetur voluptatem! Ullam, enim saepe.</p>
             </div>
             <div class="stores-wrapper">
                 <a target="_blank" class="mini-logo" href="https://apps.apple.com/us/app/jw-library/id672417831?ls=1">
-                    <img src="/public/assets/images/apple_store_logo.png" alt="">
+                    <img src="/assets/images/apple_store_logo.png" alt="">
                 </a>
                 <a target="_blank" href="https://play.google.com/store/apps/details?id=org.jw.jwlibrary.mobile" class="mini-logo">
-                    <img src="/public/assets/images/play_store_logo.png" alt="">
+                    <img src="/assets/images/play_store_logo.png" alt="">
                 </a>
                 <a target="_blank" href="https://www.amazon.com/gp/product/B00FN811SY/ref=mas_dl/144-3818206-6390050" class="mini-logo">
-                    <img src="/public/assets/images/amazon_store_logo.png" alt="">
+                    <img src="/assets/images/amazon_store_logo.png" alt="">
                 </a>
                 <a target="_blank" href="https://www.microsoft.com/pt-br/p/jw-library/9wzdncrfj3b4?rtc=1" class="mini-logo">
-                    <img src="/public/assets/images/microsoft_store_logo.png" alt="">
+                    <img src="/assets/images/microsoft_store_logo.png" alt="">
                 </a>
             </div>
+        </div>
+
+        <div class="after-content">
+            <hr>
+            <div class="after-content-apps">
+                <button>
+                    <img src="/assets/images/share-arrow.png" alt="">
+                    Compartilhar
+                </button>
+            </div>
+            <hr>
         </div>
     </main>
 
@@ -52,21 +70,22 @@
                 <div class="columns">
                     <ul class="contact">
                         <p class="footer-title">Ajuda</p>
-                            <a href=""><li class="footer-text">Publicações</li></a>
-                            <a href=""><li class="footer-text">Mídias</li></a>
-                            <a href=""><li class="footer-text">Notas</li></a>
+                            <a href="/help-highlight.html"><li class="footer-text">Destacar</li></a>
+                            <a href="/help-notes.html"><li class="footer-text">Anotar</li></a>
+                            <a href="/help-library.html"><li class="footer-text">Publicações</li></a>
+                            <a href="/help-media.html"><li class="footer-text">Mídias</li></a>
                     </ul>
                     <ul class="links">
                         <p class="footer-title">Links</p>
                         <a href="https://www.jw.org/pt"><li class="link footer-text">Site Oficial</li></a>
-                        <a href=""><li class="link footer-text">Ajuda</li></a>
-                        <a href=""><li class="link footer-text">Sobre</li></a>
+                        <a href="/help.html"><li class="link footer-text">Ajuda</li></a>
+                        <a href="/about.html"><li class="link footer-text">Sobre</li></a>
                     </ul>
                     <ul class="social">
                         <p class="footer-title">Redes sociais</p>
-                        <li class="social-item footer-text"></i>Facebook</li>
-                        <li class="social-item footer-text">Twitter</li>
-                        <liInstagram class="social-item footer-text">Instagram</li>
+                        <li class="social-item footer-text"><a style="color: #fff;" href="https://www.facebook.com">Facebook</astyle="color: #fff;"></li>
+                        <li class="social-item footer-text"><a style="color: #fff;" href="https://twitter.com">Twitter</a></li>
+                        <li class="social-item footer-text"><a style="color: #fff;" href="https://www.instagram.com">Instagram</a></li>
                     </ul>
                 </div>
             </div>
@@ -77,6 +96,6 @@
         </div>
     </footer>
 
-    <script src="/public/js/index.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 </html>
