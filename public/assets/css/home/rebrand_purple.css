@@ -17,6 +17,7 @@
     font-size: 20px;
     color: var(--grey);
 }
+
 @media (min-width: 992px) {
     #home.page .prime-hero.hero.rebrand_purple .inform-label {
         font-size: 25px;
@@ -40,5 +41,19 @@
     
     #home.page .hero.rebrand_purple .inform-text {
         font-size: 20px;
+    }
+}
+
+@media (min-height: 992px) {
+    #home.page .prime-hero.hero.rebrand_purple .inform-label {
+        font-size: 35px;
+    }
+    
+    #home.page .prime-hero.hero.rebrand_purple .inform-hero {
+        font-size: 60px;
+    }
+    
+    #home.page .prime-hero.hero.rebrand_purple .inform-text {
+        font-size: 25px;
     }
 }

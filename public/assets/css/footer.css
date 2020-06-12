@@ -17,15 +17,10 @@ footer .footer-wrapper {
 }
 
 footer .footer-wrapper .columns {
-    flex-direction:row;
-    height: 50vh;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
-footer .footer-wrapper .columns ul {
-    padding: 0;
-    margin: 0;
-    width: 100px;
-}
 
 footer .footer-title {
     color: var(--gray);
@@ -37,7 +32,6 @@ footer .footer-wrapper .columns .contact .footer-text-wrapper {
     flex-direction: column;
 }
 
-
 footer .columns .footer-text {
     margin-bottom: 10px;
     color: var(--gray);
@@ -47,8 +41,6 @@ footer .columns .footer-text {
 footer .columns .links,
 footer .columns .social {
     flex-direction: column;
-    margin: 0;
-    padding: 0;
 }
 
 footer .columns .contact {
@@ -56,9 +48,15 @@ footer .columns .contact {
     padding-right: 0;
 }
 
-footer .columns .links a {
+footer .columns a {
     color: #FFF;
     text-decoration: none;
+    margin-bottom: 0;
+}
+
+footer .columns > div {
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 footer .social-item {
@@ -107,10 +105,6 @@ footer .footer-end .footer-end-text {
         flex-direction: column;
         margin-left: 50px;
     }
-    footer .columns .links a {
-        color: #FFF;
-        text-decoration: none;
-    }
 
     footer .copyright {
         flex-direction: row;
@@ -122,5 +116,14 @@ footer .footer-end .footer-end-text {
     }
     footer .copyright .copyright-text {
         margin-right: 3px;
+    }
+
+    footer .columns > div {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    footer .columns a {
+        margin-bottom: 10px;
     }
 }

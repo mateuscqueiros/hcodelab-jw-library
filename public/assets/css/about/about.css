@@ -1,4 +1,5 @@
 #about.page {
+    max-width: 850px;
     flex-direction: column;
     padding: 20px;
 }
@@ -10,4 +11,42 @@
 
 #about.page .about-title h1 {
     color: var(--purple);
+}
+
+#about.page .after-content {
+    width: 100%;
+    flex-direction: column;
+}
+
+#about.page .after-content hr {
+    height: 2px;
+    width: 100%;
+    background-color: var(--purple-title);
+}
+
+#about.page .after-content .after-content-apps {
+    height: 60px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about.page .after-content .after-content-apps button {
+    width: 142px;
+    padding: 5px;
+    border: 2px solid var(--grey);
+    background: none;
+    height: 45px;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+    font-size: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about.page .after-content .after-content-apps button > img {
+    height: 30px;
+    margin-right: 10px;
 }

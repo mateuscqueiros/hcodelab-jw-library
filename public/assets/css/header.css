@@ -10,7 +10,7 @@
 #header #link-logo {
     width: 80px;
     height: 80px;
-    margin-left: 20px;
+    margin-left: 0;
 }
 
 #header .logo {
@@ -60,9 +60,6 @@
     right: 0;
     width: 80px;
     height: 80px;
-    outline: none;
-    border: none;
-    background: none;
     background-image: url("/assets/images/icons/close-menu.png");
     background-position: center;
     background-size: 35%;
@@ -87,9 +84,6 @@
     right: 0;
     width: 80px;
     height: 80px;
-    outline: none;
-    border: none;
-    background: none;
     background-image: url("/assets/images/icons/open-menu.png");
     background-position: center;
     background-size: 35%;
@@ -118,6 +112,10 @@
 
     #menu-open {
         display: none;
+    }
+
+    #header #link-logo {
+        margin-left: 20px;
     }
 }
 

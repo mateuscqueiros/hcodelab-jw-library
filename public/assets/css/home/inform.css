@@ -85,6 +85,11 @@
     margin-bottom: 10px;
 }
 
+#grid-container-wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
 /* inform button */
 
 #home.page .inform a {

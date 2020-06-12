@@ -24,9 +24,14 @@
     margin-bottom: 50px;
 }
 
-#download.page .inform .stores-wrapper a img {
+#download.page .inform .stores-wrapper a {
     width: 200px;
-    height: 50px;
+    height: 75px;
+}
+
+#download.page .inform .stores-wrapper a img {
+    width: 100%;
+    object-fit: cover;
 }
 
 #download.page .after-content {

@@ -30,3 +30,9 @@
     justify-content: space-around;
     height: 110vh;
 }
+
+@media (min-height: 700px) {
+    #home.page .prime-hero {
+        height: 80vh;
+    }
+}
