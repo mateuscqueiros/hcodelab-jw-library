@@ -17,7 +17,7 @@ footer .footer-wrapper {
 }
 
 footer .footer-wrapper .columns {
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 20px;
 }
 
@@ -33,7 +33,6 @@ footer .footer-wrapper .columns .contact .footer-text-wrapper {
 }
 
 footer .columns .footer-text {
-    margin-bottom: 10px;
     color: var(--gray);
     list-style: none;
 }
@@ -96,9 +95,19 @@ footer .footer-end .footer-end-text {
     color: var(--white);
 }
 
+@media (max-width: 576px) {
+    footer .footer-wrapper .columns {
+        flex-direction: column;
+    }
+    
+    footer .columns .footer-text {
+        margin-bottom: 10px;
+    }
+}
+
 @media (min-width: 992px) {
     footer .footer-wrapper .columns {
-        flex-direction: row;
+        flex-direction: column;
     }
     footer .columns .links,
     footer .columns .social {

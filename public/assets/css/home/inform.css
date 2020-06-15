@@ -5,6 +5,11 @@
     height: 100%;
 }
 
+#home.page .prime-hero .inform {
+    margin-bottom: 187.5px;
+}
+
+
 #home.page .hero .inform-label {
     position: relative;
     color: var(--white);
