@@ -27,19 +27,21 @@
     flex-direction: column;
 }
 
-#help.page .content p + p {
-    margin-bottom: 30px;
+#help.page .content p {
+    margin-bottom: 0;
 }
 
 #help.page .after-content {
     width: 100%;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 #help.page .after-content hr {
     height: 2px;
     width: 100%;
     background-color: var(--purple-title);
+    margin: 0;
 }
 
 #help.page .after-content .after-content-apps {
@@ -47,9 +49,14 @@
     align-items: center;
 }
 
+#help.page .after-content .after-content-apps a {
+    cursor: pointer;
+    color: #000;
+}
+
 #help.page .after-content .after-content-apps button {
     width: 142px;
-    padding: 5px;
+    padding: 10px 15px ;
     border: 2px solid var(--grey);
     background: none;
     height: 45px;
@@ -59,7 +66,7 @@
     font-size: bold;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #help.page .after-content .after-content-apps button > img {
