@@ -1,10 +1,10 @@
-# 🚀 Gerenciamento de academia
+# 🚀 Aplicativo mobile: JW Library
 
 Esse projeto foi desenvolvido por **Mateus Queirós** durante o curso HcodeLab da Hcode Treinamentos.
 
 ## 💡 Sobre
 
-Esse site é um versão de publicidade do apicativo mobile JW Library. Possui páginas de ajuda para funcionalidades do aplicativo e uma apresentação na página inicial. O objetivo é simular a versão real de um site dedicado a esses serviços e treinar habilidades no front-end e back-end. 
+Esse site é um versão de publicidade do apicativo mobile JW Library. Possui páginas de ajuda para funcionalidades do aplicativo e uma apresentação na página inicial. O objetivo é simular a versão real de um site dedicado a esses serviços e treinar habilidades no front-end e back-end. Esse site não foi desenvolvido pelas Testemunhas de Jeová.
 
 ## 📂 Estrutura
 
